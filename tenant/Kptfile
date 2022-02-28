@@ -11,5 +11,4 @@ pipeline:
       configPath: ensure-single-namespace.yaml
 hooks:
   deploy:
-    - image: builtins/source-gcloud-config
     - image: builtins/gen-pkg-context
