@@ -3,7 +3,7 @@ kind: SetImage
 metadata: # kpt-merge: /set-image
   name: set-image
   labels:
-    app: base-app
+    app: frontend
   annotations:
     config.kubernetes.io/local-config: "true"
     internal.kpt.dev/upstream-identifier: fn.kpt.dev|SetImage|default|set-image
