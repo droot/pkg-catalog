@@ -8,4 +8,4 @@ metadata: # kpt-merge: /set-labels
     config.kubernetes.io/local-config: "true"
     internal.kpt.dev/upstream-identifier: fn.kpt.dev|SetLabels|default|set-labels
 labels:
-  app: base-app
+  app: frontend

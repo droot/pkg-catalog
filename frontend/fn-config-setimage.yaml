@@ -9,5 +9,5 @@ metadata: # kpt-merge: /set-image
     internal.kpt.dev/upstream-identifier: fn.kpt.dev|SetImage|default|set-image
 image:
   name: gcr.io/bank-of-anthos-ci/base-app
-  newName: gcr.io/bank-of-anthos-ci/base-app
-  newTag: app-version
+  newName: gcr.io/bank-of-anthos-ci/frontend
+  newTag: v0.5.6
