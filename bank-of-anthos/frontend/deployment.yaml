@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata: # kpt-merge: example/base-app
-  name: base-app
+  name: bank-of-anthos/frontend
   namespace: example
   labels:
     app: base-app
